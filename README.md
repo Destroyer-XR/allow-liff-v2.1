@@ -1,0 +1,1 @@
+# allow-liff-v2.1
