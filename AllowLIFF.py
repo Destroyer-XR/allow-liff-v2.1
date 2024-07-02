@@ -5,8 +5,8 @@ from urllib.parse import urlparse, parse_qs
 def string_to_byte(lst):
     return [ord(num) for num in lst]
 
-authToken = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI4NDVmZTMzNC0yMTk4LTRlZmEtYmFmMi04MDA2Njc3ZDE4MmEiLCJhdWQiOiJMSU5FIiwiaWF0IjoxNzE5ODU2OTI2LCJleHAiOjE3MjA0NjE3MjYsInNjcCI6IkxJTkVfQ09SRSIsInJ0aWQiOiIxMjEyOTlhNy0wY2M0LTRkZjktYTRjZC1kMDY5ZDkyYzg1NWUiLCJyZXhwIjoxODc3NTM2OTI2LCJ2ZXIiOiIzLjEiLCJhaWQiOiJ1ZGE3ZTU2YmE4YzBkMWJjYzYxOGJmMjkzNGExN2UzOTMiLCJsc2lkIjoiYzUyMTY3MTQtNmEwMS00YjM3LWFhMzctZDVkMDVkYTMyNGFhIiwiZGlkIjoiZmY0N2Q4NjYwMzI0MjUwMWVhM2MxYThiOWY5ZDUyN2QiLCJjdHlwZSI6IkFORFJPSUQiLCJjbW9kZSI6IlBSSU1BUlkiLCJjaWQiOiIwMDAwMDAwMDAwIn0.i7ne6So0bwgAdFVrKgRde0uBoclOND_cdlcdb0oRKw0'
-liff_id = '1657707255-WVxqmM35'
+authToken = 'YOU_TOKEN'
+liff_id = 'YOU_LIFF_ID'
 
 def FixFLEX(title, data):
     return {"type": "flex","altText": title,"contents": data}
